@@ -1,0 +1,58 @@
+
+img {
+  width: 100%;
+}
+
+h1{
+color: red;
+}
+
+h2{
+  color:red;
+}
+
+h3{
+color:red;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color:darkgrey;
+}
+
+.lia:hover {
+  float: right;
+  display: grid;
+
+  padding: 8px 16px;
+   color: black;
+  color: #000;
+
+}
+
+li a:hover {
+  background-color: #555;
+  color: red;
+}
+
+body{
+  display: grid;
+  grid-template-columns: 30% 1fr;
+  grid-template-rows: 60px 1fr 60px;
+  grid-template-areas:
+  "header header"
+  "aside main"
+  "footer footer";
+   background-color:white;
+}
+
+.pictures{
+  width:50vw;
+  height:25vw;
+  border-radius: 5vw;
+  color: red;
+  border:3px red;
+}
